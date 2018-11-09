@@ -1,13 +1,14 @@
-var express = require("express");
-var htmlRoute = require("./routes/htmlRoute");
+const express = require("express");
+const app = express();
 
-var app = express();
+let htmlRoute = require("./routes/htmlRoute");
 
+const express = require("express");
+require("./routes/apiRoute.js")(app);
 htmlRoute(app);
 
-var PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, function(){
-    
+    console.log("running"); 
 });
-
