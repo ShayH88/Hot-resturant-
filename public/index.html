@@ -6,20 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/main.css" />
 
     <!-- Matirialize -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
     <!-- Matirialize  JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="server.js"></script>
+    <script src="../server.js"></script>
 </head>
 
 <body>
+<!--main conatainer-->
     <div class="container">
         <h1>Hot Resturant</h1>
+        <hr>
+        <h2>Book your seat before they are all gone!</h2>
+
+        <a href="view.html" class="waves-effect waves-light btn">View Tables</a>
+
+        <!--Form-->
+
+        <div class="row">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="input_text" type="text" data-length="10">
+                        <label for="input_text">Name?</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea2" class="materialize-textarea" data-length="120"></textarea>
+                        <label for="textarea2">Time Arriving?</label>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--end of form-->
+
+        <!--Form botton-->
+        <a class="waves-effect waves-light btn">Make Reservation</a>
+
     </div>
+    <!--end of conainer-->
 </body>
 
 </html>
