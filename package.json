@@ -1,0 +1,24 @@
+{
+  "name": "Hot-resturant-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShayH88/Hot-resturant-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShayH88/Hot-resturant-/issues"
+  },
+  "homepage": "https://github.com/ShayH88/Hot-resturant-#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
